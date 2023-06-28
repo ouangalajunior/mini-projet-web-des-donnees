@@ -1,0 +1,323 @@
+Prefix(:=<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique>
+
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desktop>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Emplacement>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Personne>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>))
+Declaration(Class(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#laptop>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#géréPar>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#installéSur>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq>))
+Declaration(DataProperty(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02>))
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#administre> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#connectéA> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dispose> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>)
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#estLocalisé> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Emplacement>)
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#géréPar> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#géréPar>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#géréPar> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>)
+ObjectPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#géréPar> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+
+# Object Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#installéSur> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#installéSur>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#installéSur> owl:topObjectProperty)
+
+# Object Property: owl:topObjectProperty (owl:topObjectProperty)
+
+ObjectPropertyDomain(owl:topObjectProperty <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel>)
+ObjectPropertyRange(owl:topObjectProperty <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>)
+ObjectPropertyRange(owl:topObjectProperty <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+ObjectPropertyRange(owl:topObjectProperty <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Emplacement>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp> xsd:dateTime)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> xsd:dateTime)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Emplacement>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel>)
+DataPropertyDomain(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique>)
+DataPropertyRange(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desktop> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desktop>)
+
+SubClassOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desktop> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+
+# Class: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien>)
+
+SubClassOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Personne>)
+
+# Class: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#laptop> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#laptop>)
+
+SubClassOf(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#laptop> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Ordinateur>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard> "2027-12-31T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard> "345678")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Bernard> "Bernard Dadie")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desktop> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02> "LENOVO ThinkPad T16")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Desk02> "SN-LEN4523RT")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01> "Cisco Catalyst 9300")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nbrPort> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01> "48"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01> "ACCESS-SWITCH-001")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER01> "Swicth")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Equipement_Reseau> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02> "Cisco ISR4400")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02> "ROUTER-RT-001")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#typeEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#ER02> "Routeur")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Emplacement> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#adresse> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01> "Avenue de l'Etang,
+10 1219 Vernier")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEmpl> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Empl01> "Bana Building")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Informaticien> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#finContrat> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe> "2025-12-31T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#idEmploye> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe> "12345")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nom> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Joe> "Joseph Doe")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01> "2028-12-31T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC01> "LanSweepper")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Licence> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#dateExp> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02> "2025-12-31T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLic> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LIC02> "Microsoft Project 2019")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01> "Norton XD-300")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG01> "Antivirus")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Logiciel> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomLog> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02> "Adobe XD")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#LOG02> "Graphisme")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#laptop> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01> "DELL Inspiron 24")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Lap01> "SN-D2345EW1")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01> "HP N9120")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER01> "Scanner")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Périphérique> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02> "HP  MFP M578f")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#usage> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#PER02> "Imprimante")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01> "HPE ProLiant DL380")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01> "SERV-PRINT-01")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur01> "SN-3452DRFG")
+
+# Individual: <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02> (<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02>)
+
+ClassAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02>)
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#marque> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02> "Dell PowerEdge R760")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#nomEq> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02> "SERV-FILE-05")
+DataPropertyAssertion(<http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#numeroSerie> <http://www.semanticweb.org/ouangala-gondja/ontologies/2023/5/ressource-informatique#Serveur02> "SN-3452ABCE")
+
+
+)
